@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="price"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/et_qty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="qty"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/et_service_fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="service fee"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/et_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="discount"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/et_other1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="other1"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/et_other2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="other2"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/tv_total_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
